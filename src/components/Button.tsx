@@ -6,7 +6,7 @@ interface ButtonProps {
   variant: "primary" | "secondary";
 }
 
-export default function Button({
+export function Button({
   children,
   onClick,
   variant = "primary",
