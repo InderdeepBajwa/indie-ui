@@ -6,9 +6,6 @@
   "repository": "https://github.com/InderdeepBajwa/indie-ui",
   "author": "Inderdeep Singh Bajwa",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
