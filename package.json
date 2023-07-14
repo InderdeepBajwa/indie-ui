@@ -1,0 +1,20 @@
+{
+  "name": "indie-ui",
+  "version": "0.1.0",
+  "description": "A TailwindCSS UI kit for open source applications",
+  "main": "index.js",
+  "repository": "https://github.com/InderdeepBajwa/indie-ui",
+  "author": "Inderdeep Singh Bajwa",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.26",
+    "react": "^18.2.0",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@radix-ui/react-popover": "1.0.6"
+  }
+}
