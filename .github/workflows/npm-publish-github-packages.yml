@@ -15,12 +15,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm ci
-      - run: npm test
-      
-      - name: Publish to npm
-        run: npm publish
-        
-      - run: npm publish
+      - run: yarn ci
+      - run: yarn test
+      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
