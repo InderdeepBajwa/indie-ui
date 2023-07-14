@@ -16,6 +16,6 @@ jobs:
         with:
           node-version: 16
       - run: yarn install
-      - run: yarn publish
+      - run: yarn publish --access public --token $NPM_TOKEN
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
+          NPM_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
